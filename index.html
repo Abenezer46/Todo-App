@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do's</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <header>
+      <h1>ToDo's</h1>
+    </header>
+
+    <form id="form">
+      <input
+        type="text"
+        name="todo"
+        class="todo-input"
+        id="todo-input"
+        placeholder="Add new task"
+        autocomplete="off"
+      />
+
+      <ul class="todos" id="todos">
+
+      </ul>
+    </form>
+
+    <div class="instructions">
+      <p> Left Click To Complete A Task </p>
+      <p> Right Click To Remove A Task</p>
+    </div>
+
+
+
+   
+  </body>
+
+</html>
